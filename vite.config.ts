@@ -12,5 +12,5 @@ const vitestConfig: VitestUserConfigInterface = {
 export default defineConfig({
   plugins: [checker({ typescript: true })],
   test: vitestConfig.test,
-  base: "https://DanielMedinaCrespillo.github.io/Juego-7.5",
+  base: "https://danielmedinacrespillo.github.io/Juego-7.5",
 });
